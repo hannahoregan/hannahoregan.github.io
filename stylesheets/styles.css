@@ -44,8 +44,8 @@ a {
   transition: all 0.2s linear;
 }
 
-a:hover a:active {
-  opacity:1;
+a:hover, a:active {
+  opacity:1 !important;
 }
 
 a small {
