@@ -8,7 +8,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #393939;
   margin:0 0 20px;
 }
 
@@ -18,7 +17,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .oj {
-  color: #f4511c !important;
+  color: #ff5722 !important;
+}
+
+.blue {
+  color: #03a9f4 !important;
 }
 
 p, ul, ol, table, pre, dl, blockquote {
@@ -33,18 +36,11 @@ h1 {
   font-size:28px;
 }
 
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
-
 a {
-  color:#39c;
+  color:#03a9f4;
   font-weight:400;
-  text-decoration:none;
+  text-decoration:underline;
+  text-decoration-style: solid;
 }
 
 a small {
