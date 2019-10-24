@@ -13,12 +13,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .under {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
+  text-decoration-line: underline !important;
+  text-decoration-style: solid !important;
 }
 
 .oj {
-  color: #f4511c;
+  color: #f4511c !important;
 }
 
 p, ul, ol, table, pre, dl, blockquote {
